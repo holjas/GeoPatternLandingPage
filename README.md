@@ -2,9 +2,9 @@
 
 Design by <a href="https://dribbble.com/search/codewell" target="_blank">Codewell </a>
 
-## Task:
+## Task: Convert PSD to HTML
 
-Convert PSD to HTML
+Creating using
 
 - HTML
 - SCSS
