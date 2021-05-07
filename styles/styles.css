@@ -344,7 +344,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 nav div:first-child {
@@ -365,6 +365,9 @@ nav div p {
 }
 
 @media (max-width: 480px) {
+  nav {
+    padding-bottom: 40px;
+  }
   nav div p {
     visibility: hidden;
   }
@@ -397,7 +400,7 @@ nav div p {
 
 .landingImage {
   height: calc(100vh * 9 / 15);
-  background-image: url("../../assets/geopattern.png");
+  background-image: url("../assets/geopattern.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;

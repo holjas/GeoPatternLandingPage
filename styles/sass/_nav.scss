@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 nav div:first-child {
@@ -23,6 +23,9 @@ nav div p {
   }
 }
 @media (max-width: 480px) {
+  nav {
+    padding-bottom: 40px;
+  }
   nav div p {
     visibility: hidden;
   }
