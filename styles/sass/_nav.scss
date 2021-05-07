@@ -1,0 +1,18 @@
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+nav div:first-child {
+  font-family: $fontHead;
+  font-size: 1.1rem;
+}
+
+nav div p {
+  display: inline;
+  font-size: 1rem;
+  padding-right: 50px;
+}
