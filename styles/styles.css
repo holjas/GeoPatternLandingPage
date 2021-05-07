@@ -43,7 +43,7 @@ figure {
 
 hr {
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -62,7 +62,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -178,7 +178,7 @@ fieldset {
 
 legend {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -198,7 +198,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
 }
 
@@ -259,23 +259,19 @@ template {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 @font-face {
   font-family: Neuville-Bold;
-  src: url("../assets/fonts/Neuville-Bold.ttf") format(ttf),
-    url("../assets/fonts/Neuville-Bold.woff") format(woff),
-    url("../assets/fonts/Neuville-Bold.woff2") format(woff2);
+  src: url("../../assets/fonts/Neuville-Bold.ttf") format(ttf), url("../../assets/fonts/Neuville-Bold.woff") format(woff), url("../../assets/fonts/Neuville-Bold.woff2") format(woff2);
 }
 
 @font-face {
   font-family: Neuville-Light;
-  src: url("../assets/fonts/Neuville-Light.ttf") format(ttf),
-    url("../assets/fonts/Neuville-Light.woff") format(woff),
-    url("../assets/fonts/Neuville-Light.woff2") format(woff2);
+  src: url("../../assets/fonts/Neuville-Light.ttf") format(ttf), url("../../assets/fonts/Neuville-Light.woff") format(woff), url("../../assets/fonts/Neuville-Light.woff2") format(woff2);
 }
 
 body {
@@ -328,7 +324,7 @@ nav button a {
 button:hover,
 button:focus {
   -webkit-box-shadow: 1px 1px 20px #2e2e2e;
-  box-shadow: 1px 1px 20px #2e2e2e;
+          box-shadow: 1px 1px 20px #2e2e2e;
 }
 
 nav {
@@ -337,11 +333,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 70px;
 }
 
@@ -386,7 +382,7 @@ nav div p {
 .landingContainer {
   height: calc(100vh * 9 / 15);
   min-height: 500px;
-  width: calc(100vw * 9 / 10);
+  width: 95vw;
   background-color: #f9f7f5;
   border-radius: 15px;
   display: -webkit-box;
@@ -394,14 +390,14 @@ nav div p {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .landingText,
@@ -423,7 +419,7 @@ nav div p {
 .landingText {
   padding: 50px;
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 h2 {
@@ -451,14 +447,14 @@ p {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .landingButtons h3 {
@@ -473,8 +469,8 @@ p {
   .landingButtons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .landingButtons i {
     padding: 40px 10px 0 0;
@@ -506,8 +502,8 @@ p {
   .landingContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .landingImage {
     display: none;
