@@ -220,16 +220,14 @@ template {
 
 //
 @font-face {
-  font-family: Neuville-Bold;
-  src: url("../../assets/fonts/Neuville-Bold.ttf") format(ttf),
-    url("../../assets/fonts/Neuville-Bold.woff") format(woff),
-    url("../../assets/fonts/Neuville-Bold.woff2") format(woff2);
+  font-family: "Neuville-Bold";
+  src: url("../assets/fonts/Neuville-Bold.woff"),
+    url("../assets/fonts/Neuville-Bold.woff2");
 }
 @font-face {
-  font-family: Neuville-Light;
-  src: url("../../assets/fonts/Neuville-Light.ttf") format(ttf),
-    url("../../assets/fonts/Neuville-Light.woff") format(woff),
-    url("../../assets/fonts/Neuville-Light.woff2") format(woff2);
+  font-family: "Neuville-Light";
+  src: url("../assets/fonts/Neuville-Light.woff"),
+    url("../assets/fonts/Neuville-Light.woff2");
 }
 
 $black: #121212;
@@ -284,4 +282,8 @@ nav button a {
 button:hover,
 button:focus {
   box-shadow: 1px 1px 20px $shadeDark;
+}
+button a:hover,
+nav button a:focus {
+  text-decoration: none;
 }
