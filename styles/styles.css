@@ -322,15 +322,30 @@ button {
 }
 
 button {
+  cursor: pointer;
   background-color: #57513d;
   color: #fff;
   border: transparent;
   padding: 20px 40px;
   border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 button span {
   font-family: "Neuville-Bold", "serif";
+}
+
+button a,
+nav button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover,
+button:focus {
+  -webkit-box-shadow: 1px 1px 20px #2e2e2e;
+          box-shadow: 1px 1px 20px #2e2e2e;
 }
 
 nav {
@@ -350,6 +365,18 @@ nav {
 nav div:first-child {
   font-family: "Neuville-Bold", "serif";
   font-size: 1.1rem;
+}
+
+nav a {
+  color: #121212;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
 }
 
 nav div p {

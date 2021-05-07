@@ -250,6 +250,7 @@ $shadeLight: #f9f7f5;
 $shadeDark: #2e2e2e;
 $primary1: #57513d;
 $primary2: #807b6c;
+$primary3: #ada179;
 $fontHead: "Neuville-Bold", "serif";
 $fontLight: "Neuville-Light", "serif";
 $borderRadius: 5px;
@@ -276,14 +277,24 @@ button {
   font-family: $fontLight;
 }
 button {
+  cursor: pointer;
   background-color: $primary1;
   color: $white;
   border: transparent;
   padding: 20px 40px;
   border-radius: $borderRadius;
+  transition: 0.3s;
 }
 button span {
   font-family: $fontHead;
 }
-
-// media queries
+button a,
+nav button a {
+  color: $white;
+  text-decoration: none;
+}
+button:hover,
+button:focus {
+  // background-color: $primary2;
+  box-shadow: 1px 1px 20px $shadeDark;
+}
