@@ -295,6 +295,16 @@ template {
   /* added line */
 }
 
+@font-face {
+  font-family: Neuville-Bold;
+  src: url("../../assets/fonts/Neuville-Bold.ttf") format(ttf), url("../../assets/fonts/Neuville-Bold.woff") format(woff), url("../../assets/fonts/Neuville-Bold.woff2") format(woff2);
+}
+
+@font-face {
+  font-family: Neuville-Light;
+  src: url("../../assets/fonts/Neuville-Light.ttf") format(ttf), url("../../assets/fonts/Neuville-Light.woff") format(woff), url("../../assets/fonts/Neuville-Light.woff2") format(woff2);
+}
+
 body {
   background-color: #fff;
   color: #121212;
@@ -543,14 +553,4 @@ p {
   .landingContainer {
     height: calc(100vh * 9 / 13);
   }
-}
-
-@font-face {
-  font-family: Neuville-Bold;
-  src: url("../../assets/fonts/Neuville-Bold.ttf") format(ttf), url("../../assets/fonts/Neuville-Bold.woff") format(woff), url("../../assets/fonts/Neuville-Bold.woff2") format(woff2);
-}
-
-@font-face {
-  font-family: Neuville-Light;
-  src: url("../../assets/fonts/Neuville-Light.ttf") format(ttf), url("../../assets/fonts/Neuville-Light.woff") format(woff), url("../../assets/fonts/Neuville-Light.woff2") format(woff2);
 }
