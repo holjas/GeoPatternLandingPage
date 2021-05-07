@@ -71,7 +71,6 @@ p {
     font-size: 1.7rem;
   }
   .landingText {
-    text-align: center;
     width: 65%;
   }
   .landingImage {
@@ -85,8 +84,21 @@ p {
   .landingContainer {
     flex-direction: column-reverse;
   }
-  .landingText,
+
   .landingImage {
+    display: none;
+  }
+  .landingText {
+    padding: 0;
     width: 100%;
+  }
+  .landingText h2,
+  .landingText p {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 360px) {
+  .landingContainer {
+    height: calc(100vh * 9 / 13);
   }
 }
