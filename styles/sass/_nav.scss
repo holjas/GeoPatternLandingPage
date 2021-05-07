@@ -16,3 +16,14 @@ nav div p {
   font-size: 1rem;
   padding-right: 50px;
 }
+// media queries
+@media (max-width: 800px) {
+  nav button {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  nav div p {
+    visibility: hidden;
+  }
+}
