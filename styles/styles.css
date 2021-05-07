@@ -375,7 +375,7 @@ nav div p {
 
 .landingContainer {
   height: calc(100vh * 9 / 15);
-  min-height: 450px;
+  min-height: 500px;
   width: calc(100vw * 9 / 10);
   background-color: #f9f7f5;
   border-radius: 15px;
@@ -401,6 +401,7 @@ nav div p {
 
 .landingImage {
   height: calc(100vh * 9 / 15);
+  min-height: 500px;
   background-image: url("../assets/geopattern.png");
   background-size: cover;
   background-repeat: no-repeat;
