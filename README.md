@@ -8,3 +8,5 @@ Creating using
 
 - HTML
 - SCSS
+
+[Live Demo] (https://holjas.github.io/GeoPatternLandingPage)
