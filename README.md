@@ -10,3 +10,4 @@ Creating using
 - SCSS
 
 [Live Demo] (https://holjas.github.io/GeoPatternLandingPage)
+<img src="./assets/GeoLandingPageDesktop.png" alt="desktop layout for codewell landing page design">
